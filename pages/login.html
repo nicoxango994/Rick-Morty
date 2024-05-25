@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>Ingresar</title>
+</head>
+<body>
+
+    <!-- <div id="header">
+        <nav id="nav"></nav>
+        <img src="../img/portalrym.gif" alt="Character Image">
+    </div> -->
+    
+    <img class="logImg" src="../img/portalrym.gif" alt="Character Image">
+    <!--formulario login/registro-->
+    <div class="form">
+        
+      <!--login-->
+      <form class="login-form" action="" method="post">
+        <input class="user-input" type="text" name="" placeholder="Usuario" required>
+        <input class="user-input" type="password" name="" placeholder="Contraseña" required>
+        <div class="options-01">
+          <label class="remember-me"><input type="checkbox" name="">Recuerdame</label>
+          <a href="#">Olvidaste tu contraseña?</a>
+        </div>
+        <input class="btn" type="submit" name="" value="ENTRAR">
+        <div class="options-02">
+          <p>No estás registrado? <a href="#">Create una cuenta</a></p>
+          <br>
+          <p><a href="../index.html">Volver</a></p>
+        </div>
+      </form>
+  
+      <!--form registro-->
+      <form class="signup-form" action="" method="post">
+        <input class="user-input" type="text" name="" placeholder="Usuario" required>
+        <input class="user-input" type="email" name="" placeholder="Email" required>
+        <input class="user-input" type="password" name="" placeholder="Contraseña" required>
+
+        <!-- <table id="character-details">
+          <tr>
+            <td><strong>Sexo:</strong></td>
+            <td>                       
+              <select id="gender" name="gender" required>
+              <option value="" disabled selected>Seleccionar</option>
+              <option value="male">Masculino</option>
+              <option value="female">Femenino</option>
+              <option value="other">Otro</option>
+              <option value="prefer_not_to_say">Prefiero no decirlo</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+            <td><strong>Fecha de Nacimiento:</strong></td>
+            <td><input type="date" id="birthdate" name="birthdate" required></td>
+          </tr>
+          <tr>
+            <td><strong>Imagen:</strong></td>
+            <td><input type="file" id="profile_image" name="profile_image" accept="image/*" required></td>
+          </tr>
+        </table> -->
+        <input class="btn" type="submit" name="" value="REGISTRARSE">
+        <div class="options-02">
+          <p>Ya tenes cuenta? <a href="#">Logeate!</a></p>
+          <br>
+          <p><a href="../index.html">Volver</a></p>
+        </div>
+      </form>
+      </div>
+
+
+  <script src="../js/components.js"></script>
+</body>
+
+</html>
